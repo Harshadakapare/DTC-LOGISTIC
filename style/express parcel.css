@@ -22,11 +22,13 @@ p{
 .info{
     display: flex;
     justify-content: space-evenly;
+    color: rgb(151, 30, 30);
 
 }
 .info2{
      margin-top: 50px;
      text-align: center;
+     color: rgb(151, 30, 30);
 }
 .card1{
     display: flex;
