@@ -7,7 +7,9 @@ h1{
     margin-left: 50px;
     
 }
-
+body{
+    background-color: #f7eff1;
+}
 
 p{
     margin-top: 50px;
@@ -27,19 +29,19 @@ p{
 .info2{
      margin-top: 50px;
      text-align: center;
-     color: rgb(151, 30, 30);
+     color:   #800F2F;
 }
 .card1{
     display: flex;
     justify-content: space-evenly;
-    height: 500px;
+    height: 300px;
     margin-top: 100px;
    
 }
 .card-body{
    
-    background-color: black;
-    color: white;
+    background-color:  #f0d2d8;
+    color: black;
     text-align: center;
      
 }
@@ -47,9 +49,23 @@ p{
    
     text-align: center;
     margin-left: auto;
+    margin-bottom: 20px;
     
 }
 .info2{
     margin-top: 100px;
 
+}
+.card2{
+    display: flex;
+    justify-content: space-evenly;
+    height: 300px;
+    margin-top: 100px;
+}
+.card-body{
+    width: 400px;
+}
+.card-img-top{
+    width: 400px;
+    height: 200px;
 }

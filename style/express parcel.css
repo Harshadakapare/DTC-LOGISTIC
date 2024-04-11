@@ -7,6 +7,9 @@ h1{
     margin-left: 100px;
     
 }
+body{
+    background-color: #f7eff1;
+}
 h2{
     margin-left: 140px;
 }
@@ -22,13 +25,13 @@ p{
 .info{
     display: flex;
     justify-content: space-evenly;
-    color: rgb(151, 30, 30);
+    color: #800F2F;
 
 }
 .info2{
      margin-top: 50px;
      text-align: center;
-     color: rgb(151, 30, 30);
+     color: #800F2F;
 }
 .card1{
     display: flex;
@@ -39,7 +42,8 @@ p{
     margin-left: 10px;
 }
 .card-body{
-    background-color: black;
-    color: white;
+    background-color: #f0d2d8;
+    color: black;
+  
 
 }
