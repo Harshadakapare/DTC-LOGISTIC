@@ -38,3 +38,8 @@ p{
 .card-text{
     margin-left: 10px;
 }
+.card-body{
+    background-color: black;
+    color: white;
+
+}
