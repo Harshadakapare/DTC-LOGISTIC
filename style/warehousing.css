@@ -1,6 +1,6 @@
 img{
     height: 600px;
-    width: 1700px;
+    width: 1500px;
 }
 h1{
     margin-top: 100px;
@@ -8,7 +8,7 @@ h1{
     
 }
 body{
-    background-color: #f7eff1;
+    background-color: #e0e1dd
 }
 
 p{
@@ -29,7 +29,7 @@ p{
 .info2{
      margin-top: 50px;
      text-align: center;
-     color:   #800F2F;
+     color:  #0d1b2a;
 }
 .card1{
     display: flex;
@@ -40,7 +40,7 @@ p{
 }
 .card-body{
    
-    background-color:  #f0d2d8;
+    background-color:  #c0cbda;
     color: black;
     text-align: center;
      

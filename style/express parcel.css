@@ -8,7 +8,7 @@ h1{
     
 }
 body{
-    background-color: #f7eff1;
+    background-color: #e0e1dd;
 }
 h2{
     margin-left: 140px;
@@ -25,13 +25,13 @@ p{
 .info{
     display: flex;
     justify-content: space-evenly;
-    color: #800F2F;
+    color: #0d1b2a;
 
 }
 .info2{
      margin-top: 50px;
      text-align: center;
-     color: #800F2F;
+     color: #0d1b2a;
 }
 .card1{
     display: flex;
@@ -42,7 +42,7 @@ p{
     margin-left: 10px;
 }
 .card-body{
-    background-color: #f0d2d8;
+    background-color: #c0cbda;
     color: black;
   
 
