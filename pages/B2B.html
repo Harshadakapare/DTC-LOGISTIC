@@ -6,97 +6,48 @@
     <title>Document</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="./../style/B2B.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" />
+
     <style>
       /* ..........////Food category///........... */
 
-#block{
-  padding: 5rem 0 10rem 0;
-}
 
-#block h2 {
-  text-align: center;
-  font-size: 2.5rem;
-  font-weight: 400;
-  margin-bottom: 40px;
-  text-transform: uppercase;
-  color: #555;
-}
-
-.block-container {
-  display: flex;
-  justify-content: space-evenly;
-  margin-left: 30px;
-}
-
-.block-container img {
-  display: block;
-  width: 100%;
-  margin: auto;
-  max-height: 250px;
-  object-fit: cover;
-  object-position: center;
-}
-
-.img-container {
-  margin: 0 1rem;
-  position: relative;
-}
-
-.img-content {
-  position: absolute;
-  top: 70%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  opacity: 0;
-  z-index: 2;
-  text-align: center;
-  transition: all 0.3s ease-in-out 0.1s;
-}
-
-.img-content h3 {
-  color: #fff;
-  font-size: 2.2rem;
-}
-
-.img-content a {
-  font-size: 1.2rem;
-}
-
-.img-container::after {
-  content: "";
-  display: block;
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background: rgba(0, 0, 0, 0.871);
-  opacity: 0;
-  z-index: 1;
-
-  transform: scaleY(0);
-  transform-origin: 100% 100%;
-  transition: all 0.3s ease-in-out;
-}
-
-.img-container:hover::after {
-  opacity: 1;
-  transform: scaleY(1);
-}
-
-.img-container:hover .img-content {
-  opacity: 1;
-  top: 40%;
-}
-/*info*/
-
-.info {
-  text-align: center;
-}
     </style>
 
 </head>
 <body>
+  <div class="menu-bar">
+    <h1 class="logo">Light<span>Code.</span></h1>
+    <ul>
+      <li><a href="#">Home</a></li>
+      <li><a href="#">Services<i class="fas fa-caret-down"></i></a>
+  
+        <div class="dropdown-menu">
+          <ul>
+            <li><a href="#">Express parcel</a></li>
+            <li><a href="#">Warehousing</a></li>
+          </ul>
+        </div>
+      </li>
+      <li><a href="#">solutions<i class="fas fa-caret-down"></i></a>
+  
+        <div class="dropdown-menu">
+          <ul>
+            <li><a href="#">D2C</a></li>
+            <li><a href="#">Personal</a></li>
+            <li><a href="#">B2B</a></li>
+            <li><a href="#">B2C</a></li>
+          </ul>
+        </div>
+      </li>
+      <li><a href="#">About us</a></li>
+      <li><a href="#">Track</a>
+      </li>
+      <li><a href="#">Contact us</a></li>
+    </ul>
+  </div>
+  
   <div class="relative isolate overflow-hidden bg-white px-6 py-20 sm:py-28 lg:overflow-visible lg:px-0">
     <div class="absolute inset-0 -z-10 overflow-hidden">
       <svg class="absolute left-[max(50%,25rem)] top-0 h-[64rem] w-[128rem] -translate-x-1/2 stroke-gray-200 [mask-image:radial-gradient(64rem_64rem_at_top,white,transparent)]" aria-hidden="true">
@@ -197,26 +148,27 @@
 <!--contact-->
 <div class="relative isolate overflow-hidden bg-gray-900 py-24 sm:py-32">
   <div class="hidden sm:absolute sm:-top-10 sm:right-1/2 sm:-z-10 sm:mr-10 sm:block sm:transform-gpu sm:blur-3xl" aria-hidden="true">
-    <div class="aspect-[1097/845] w-[68.5625rem] bg-gradient-to-tr from-[black] to-[black] opacity-20" style="clip-path: polygon(74.1% 44.1%, 100% 61.6%, 97.5% 26.9%, 85.5% 0.1%, 80.7% 2%, 72.5% 32.5%, 60.2% 62.4%, 52.4% 68.1%, 47.5% 58.3%, 45.2% 34.5%, 27.5% 76.7%, 0.1% 64.9%, 17.9% 100%, 27.6% 76.8%, 76.1% 97.7%, 74.1% 44.1%)"></div>
+    <div class="aspect-[1097/845] w-[68.5625rem] bg-gradient-to-tr from-[ #1B263B] to-[ #1B263B] opacity-20" style="clip-path: polygon(74.1% 44.1%, 100% 61.6%, 97.5% 26.9%, 85.5% 0.1%, 80.7% 2%, 72.5% 32.5%, 60.2% 62.4%, 52.4% 68.1%, 47.5% 58.3%, 45.2% 34.5%, 27.5% 76.7%, 0.1% 64.9%, 17.9% 100%, 27.6% 76.8%, 76.1% 97.7%, 74.1% 44.1%)"></div>
   </div>
   <div class="absolute -top-52 left-1/2 -z-10 -translate-x-1/2 transform-gpu blur-3xl sm:top-[-28rem] sm:ml-16 sm:translate-x-0 sm:transform-gpu" aria-hidden="true">
-    <div class="aspect-[1097/845] w-[68.5625rem] bg-gradient-to-tr from-[black] to-[black] opacity-20" style="clip-path: polygon(74.1% 44.1%, 100% 61.6%, 97.5% 26.9%, 85.5% 0.1%, 80.7% 2%, 72.5% 32.5%, 60.2% 62.4%, 52.4% 68.1%, 47.5% 58.3%, 45.2% 34.5%, 27.5% 76.7%, 0.1% 64.9%, 17.9% 100%, 27.6% 76.8%, 76.1% 97.7%, 74.1% 44.1%)"></div>
+    <div class="aspect-[1097/845] w-[68.5625rem] bg-gradient-to-tr from-[ #1B263B] to-[ #1B263B] opacity-20" style="clip-path: polygon(74.1% 44.1%, 100% 61.6%, 97.5% 26.9%, 85.5% 0.1%, 80.7% 2%, 72.5% 32.5%, 60.2% 62.4%, 52.4% 68.1%, 47.5% 58.3%, 45.2% 34.5%, 27.5% 76.7%, 0.1% 64.9%, 17.9% 100%, 27.6% 76.8%, 76.1% 97.7%, 74.1% 44.1%)"></div>
   </div>
-  <div class="mx-auto max-w-7xl px-6 lg:px-8" data-aos="zoom-in-right">
+  <div class="mx-auto max-w-7xl px-6 lg:px-8">
     <div class="mx-auto max-w-2xl lg:mx-0">
       <h2 class="text-3xl font-bold  text-white ">Provide a more reliable order-to-delivery contact with us </h2>
+
     </div>
     <div class="mx-auto mt-10 max-w-2xl lg:mx-0 lg:max-w-none">
       <div class="grid grid-cols-1 gap-x-8 gap-y-6 text-base font-semibold leading-7 text-white sm:grid-cols-2 md:flex lg:gap-x-10">
-        <a href="./contact.html"  class="inline-block py-3.5 px-10 mr-4 bg-white rounded-[4px] font-semibold text-[14px] text-gray-800 ">Contact Us <span aria-hidden="true">&rarr;</span></a>
+        <a href="./../style/contact.css"  class="inline-block py-3.5 px-10 mr-4 bg-white rounded-[4px] font-semibold text-[14px] text-gray-800">Contact Us <span aria-hidden="true">&rarr;</span></a>
         
       </div>
-      
+     
     </div>
   </div>
 </div>
 
-
+<br>
 
 <!--trusted by-->
 <div class="bg-white py-16 sm:py-24">
@@ -230,6 +182,47 @@
       <img class="col-span-2 col-start-2 max-h-12 w-full object-contain sm:col-start-auto lg:col-span-1" data-aos="fade-left" src="https://tailwindui.com/img/logos/158x48/statamic-logo-gray-900.svg" alt="Statamic" width="158" height="48">
     </div>
   </div>
+</div>
+
+<!--footer-->
+<div>
+  <footer>
+    <div class="footer-col">
+      <h4>products</h4>
+      <ul>
+        <li><a href="#">teams</a></li>
+        <li><a href="#">advertising</a></li>
+        <li><a href="#">talent</a></li>
+      </ul>
+    </div>
+    <div class="footer-col">
+      <h4>network</h4>
+      <ul>
+        <li><a href="#">technology</a></li>
+        <li><a href="#">science</a></li>
+        <li><a href="#">business</a></li>
+        <li><a href="#">professional</a></li>
+        <li><a href="#">API</a></li>
+      </ul>
+    </div>
+    <div class="footer-col">
+      <h4>company</h4>
+      <ul>
+        <li><a href="#">about</a></li>
+        <li><a href="#">legal</a></li>
+        <li><a href="#">contact us</a></li>
+      </ul>
+    </div>
+    <div class="footer-col">
+      <h4>follow us</h4>
+      <div class="links">
+        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+        <a href="#"><i class="fab fa-facebook-f"></i></a>
+        <a href="#"><i class="fab fa-twitter"></i></a>
+        <a href="#"><i class="fab fa-instagram"></i></a>
+      </div>
+    </div>
+  </footer>
 </div>
 <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
 
