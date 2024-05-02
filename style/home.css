@@ -1,8 +1,8 @@
 /*navbar*/
 :root {
-    --color-primary: #FFCCD5;
-    --color-white: #e9e9e9;
-    --color-black: #590D22;
+    --color-primary: #778DA9;
+    --color-white: #E0E1DD;
+    --color-black: #1B263B;
     --color-black-1: #212b38;
   }
   
@@ -16,7 +16,7 @@
     font-family: sans-serif;
   }
   .abc{
-    background-color: #f7eff1;
+    background-color:#E0E1DD;
   }
   
   .logo {
@@ -181,10 +181,10 @@ button:hover{
 }
 .card-body{
   height: 100px;
-  background-color: #f0d2d8;
+  background-color:#778DA9;
 }
 .card-text{
-  color:#800F2F;
+  color:#0D1B2A;
 }
 .card-img-top{
   height: 300px;
@@ -201,15 +201,15 @@ button:hover{
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  color: #800F2F;
+  color: #0D1B2A;
 }
 .mid2{
   height: 250px;
   width: auto;
-  background-color: #f0d2d8;
+  background-color: #778DA9;
   margin-bottom: 50px;
   text-align: center;
-  color: #800F2F;
+  color:black;
 }
 
 
@@ -234,7 +234,7 @@ footer{
   display: flex;
   flex-wrap: wrap;
   margin-top: auto;
-  background-color: #590D22;;
+  background-color: #1B263B;
   padding: 60px 10%;
 }
 
@@ -317,4 +317,14 @@ ul li a:hover{
   .footer-col{
       width: 100%;
   }
-}
+
+           
+              
+
+
+
+
+
+
+
+
