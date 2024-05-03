@@ -1,0 +1,14 @@
+p{
+    margin-top: 100px;
+    text-align: center;
+    color: cadetblue;
+    font-size: 50px;
+}
+.card1{
+    margin-top: 80px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.card{
+    height: 100px;
+}
