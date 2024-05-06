@@ -1,0 +1,317 @@
+/* navbar */
+
+:root {
+    --color-primary: #778DA9;
+    --color-white: #E0E1DD;
+    --color-black: #1B263B;
+    --color-black-1: #212b38;
+  }
+  
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: sans-serif;
+  }
+  .abc{
+    background-color:#E0E1DD;
+  }
+  
+  .logo {
+    color: var(--color-white);
+    font-size: 30px;
+  }
+  
+  .logo span {
+    color: var(--color-primary);
+  }
+  
+  .menu-bar {
+    background-color: var(--color-black);
+    height: 80px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 5%;
+  
+    position: relative;
+  }
+  
+  .menu-bar ul {
+    list-style: none;
+    display: flex;
+  }
+  
+  .menu-bar ul li {
+    /* width: 120px; */
+    padding: 10px 30px;
+    /* text-align: center; */
+  
+    position: relative;
+  }
+  
+  .menu-bar ul li a {
+    font-size: 20px;
+    color: var(--color-white);
+    text-decoration: none;
+  
+    transition: all 0.3s;
+  }
+  
+  .menu-bar ul li a:hover {
+    color: var(--color-primary);
+  }
+  
+  .fas {
+    float: right;
+    margin-left: 10px;
+    padding-top: 3px;
+  }
+  
+  /* dropdown menu style */
+  .dropdown-menu {
+    display: none;
+  }
+  
+  .menu-bar ul li:hover .dropdown-menu {
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 100%;
+    background-color: var(--color-black);
+  }
+  
+  .menu-bar ul li:hover .dropdown-menu ul {
+    display: block;
+    margin: 10px;
+  }
+  
+  .menu-bar ul li:hover .dropdown-menu ul li {
+    width: 150px;
+    padding: 10px;
+  }
+  
+  .dropdown-menu-1 {
+    display: none;
+  }
+  
+  .dropdown-menu ul li:hover .dropdown-menu-1 {
+    display: block;
+    position: absolute;
+    left: 150px;
+    top: 0;
+    background-color: var(--color-black);
+  }
+  
+  .hero {
+    height: calc(100vh - 80px);
+    background-image: url(./bg.jpg);
+    background-position: center;
+  }
+
+
+  /* footer */
+
+  
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  line-height: 1.2;
+}
+
+body{
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  background-color: white;  
+}
+
+footer{
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: auto;
+  background-color: #1B263B;
+  padding: 60px 10%;
+}
+
+ul{
+  list-style: none;
+}
+
+.footer-col{
+  width: 25%;
+}
+
+.footer-col h4{
+  position: relative;
+  margin-bottom: 30px;
+  font-weight: 400;
+  font-size: 22px;
+  color: #fffcfc;
+  text-transform: capitalize;
+}
+
+.footer-col h4::before{
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: -6px;
+  background-color: #e61515;
+  height: 2px;
+  width: 40px;
+}
+
+ul li:not(:last-child){
+  margin-bottom: 8px;
+}
+
+ul li a{
+  display: block;
+  font-size: 19px;
+  text-transform: capitalize;
+  color: #bdb6b6;
+  text-decoration: none;
+  transition: 0.4s;
+}
+
+ul li a:hover{
+  color: white;
+  padding-left: 2px;
+}
+
+.links a{
+  display: inline-block;
+  height: 44px;
+  width: 44px;
+  color: white;
+  background-color: rgba(62, 64, 66, 0.8);
+  margin: 0 8px 8px 0;
+  text-align: center;
+  line-height: 44px;
+  border-radius: 50%;
+  transition: 0.4s;
+}
+
+.links a:hover{
+  color: #4d4f55;
+  background-color: white;
+}
+
+@media(max-width: 740px){
+  .footer-col{
+      width: 50%;
+      margin-bottom: 30px;
+      text-align: center;
+  }
+
+  .footer-col h4::before{
+      all: unset;
+  }
+}
+
+@media(max-width: 555px){
+  .footer-col{
+      width: 100%;
+  }
+}
+
+.cards {
+
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.card {
+  box-shadow: -2px 3px 12px 2px gray;
+  margin-top: 30px;
+  border: 1px solid gray;
+  transition: 1s;
+  height: 500px;
+  width: 550px;
+}
+
+.card:hover {
+  box-shadow: -2px 6px 12px 5px gray;
+  transform: scale(1.05);
+}
+
+.card-1 {
+  position: relative;
+}
+
+
+.card-2 {
+  position: relative;
+}
+
+
+/* background img */
+.header-col2{
+  background: url("./../images/WhatsApp\ Image\ 2024-05-04\ at\ 22.11.39_59d12998.jpg");
+  background-position: center ;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 80vh;
+  width: 100vw;
+  margin-top: -20px;
+  filter: blur(2px);
+ }
+ 
+ .header-col1{
+     position: absolute;
+     width: 50vw;
+     text-align: center;
+     /* left: 25%; */
+     top: 40%;
+     letter-spacing: 3px;
+ }
+ .header-col1 h5{
+     font-weight: 30; 
+ }
+ .page-name{
+     text-align: center;
+     font-family: 'Times New Roman', Times, serif;
+     font-size: 100px;
+     color: white;
+     
+ }
+
+ .img-fluid rounded-start{
+
+
+ }
+
+ .headings{
+  text-align: left;
+  margin-left: 100px;
+  margin-top: 100px;
+}
+.heading1{
+  text-align: left;
+  margin-top: 100px;
+}
+.text1{
+  font-size: large;
+  text-align: left;
+  margin-top: 30px;
+  word-spacing: 5px;
+}
+.text{
+  font-size: large;
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-top: 10px;
+  word-spacing: 5px;
+}
+.Location{
+    margin-top: 50px;
+    display:flex;
+    justify-content: space-between;
+}
