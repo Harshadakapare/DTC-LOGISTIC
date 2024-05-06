@@ -191,6 +191,15 @@ p{
     width: 400px;
     height: 200px;
 }
+.A{
+  transition: 0.5s;
+
+}
+.A:hover{
+  transform: scale(1.1);
+  box-shadow: 3px 4px 15px 3px rgb(16, 16, 16);
+}
+
 /*footer*/
 *{
   margin: 0;
