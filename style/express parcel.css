@@ -34,6 +34,7 @@ body {
 .logo {
   color: var(--color-white);
   font-size: 30px;
+  margin-top: 10px;
 }
 
 .logo span {
@@ -166,6 +167,14 @@ p{
     color: black;
   
 
+}
+.A{
+  transition: 0.5s;
+
+}
+.A:hover{
+  transform: scale(1.1);
+  box-shadow: 3px 4px 15px 3px rgb(16, 16, 16);
 }
 
  /*footer*/
