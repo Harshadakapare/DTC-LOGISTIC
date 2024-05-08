@@ -66,7 +66,7 @@
   }
   
   .fas {
-    float: right;
+      float: right;
     margin-left: 10px;
     padding-top: 3px;
   }
@@ -164,7 +164,7 @@ button:hover{
 }
 @media(min-aspect-ratio: 16/9){
   .banner video{
-      width: 1400px;
+      width: auto;
       height: 800px;
       margin-top: -40px;
       margin-bottom: -25px;
@@ -304,7 +304,7 @@ button:hover{
   transform: scaleY(0);
   transform-origin: 100% 100%;
   transition: all 0.5s ease-in-out;
-  border: 4px solid orange;
+  border: 4px solid rgb(86, 84, 119);
 }
 
 .img-container:hover::after {
@@ -422,7 +422,7 @@ ul li a:hover{
   .footer-col{
       width: 100%;
   }
-
+}
 
   
   
