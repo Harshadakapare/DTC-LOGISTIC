@@ -12,90 +12,7 @@
     <style>
       /* ..........////Food category///........... */
 
-#block{
-  padding: 5rem 0 10rem 0;
-}
 
-#block h2 {
-  text-align: center;
-  font-size: 2.5rem;
-  font-weight: 400;
-  margin-bottom: 40px;
-  text-transform: uppercase;
-  color: #555;
-}
-
-.block-container {
-  display: flex;
-  justify-content: space-evenly;
-  margin-left: 30px;
-}
-
-.block-container img {
-  display: block;
-  width: 100%;
-  margin: auto;
-  max-height: 250px;
-  object-fit: cover;
-  object-position: center;
-}
-
-.img-container {
-  margin: 0 1rem;
-  position: relative;
-}
-
-.img-content {
-  position: absolute;
-  top: 70%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  opacity: 0;
-  z-index: 2;
-  text-align: center;
-  transition: all 0.3s ease-in-out 0.1s;
-}
-
-.img-content h3 {
-  color: #fff;
-  font-size: 2.2rem;
-}
-
-.img-content a {
-  font-size: 1.2rem;
-}
-
-.img-container::after {
-  content: "";
-  display: block;
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background: rgba(0, 0, 0, 0.871);
-  opacity: 0;
-  z-index: 1;
-
-  transform: scaleY(0);
-  transform-origin: 100% 100%;
-  transition: all 0.3s ease-in-out;
-}
-
-.img-container:hover::after {
-  opacity: 1;
-  transform: scaleY(1);
-}
-
-.img-container:hover .img-content {
-  opacity: 1;
-  top: 40%;
-}
-/*info*/
-
-.info {
-  text-align: center;
-}
     </style>
 
 </head>
@@ -139,6 +56,10 @@
 
 
 
+
+            
+      
+  
   <div class="relative isolate overflow-hidden bg-white px-6 py-20 sm:py-28 lg:overflow-visible lg:px-0">
     <div class="absolute inset-0 -z-10 overflow-hidden">
       <svg class="absolute left-[max(50%,25rem)] top-0 h-[64rem] w-[128rem] -translate-x-1/2 stroke-gray-200 [mask-image:radial-gradient(64rem_64rem_at_top,white,transparent)]" aria-hidden="true">
@@ -239,26 +160,27 @@
 <!--contact-->
 <div class="relative isolate overflow-hidden bg-gray-900 py-24 sm:py-32">
   <div class="hidden sm:absolute sm:-top-10 sm:right-1/2 sm:-z-10 sm:mr-10 sm:block sm:transform-gpu sm:blur-3xl" aria-hidden="true">
-    <div class="aspect-[1097/845] w-[68.5625rem] bg-gradient-to-tr from-[black] to-[black] opacity-20" style="clip-path: polygon(74.1% 44.1%, 100% 61.6%, 97.5% 26.9%, 85.5% 0.1%, 80.7% 2%, 72.5% 32.5%, 60.2% 62.4%, 52.4% 68.1%, 47.5% 58.3%, 45.2% 34.5%, 27.5% 76.7%, 0.1% 64.9%, 17.9% 100%, 27.6% 76.8%, 76.1% 97.7%, 74.1% 44.1%)"></div>
+    <div class="aspect-[1097/845] w-[68.5625rem] bg-gradient-to-tr from-[ #1B263B] to-[ #1B263B] opacity-20" style="clip-path: polygon(74.1% 44.1%, 100% 61.6%, 97.5% 26.9%, 85.5% 0.1%, 80.7% 2%, 72.5% 32.5%, 60.2% 62.4%, 52.4% 68.1%, 47.5% 58.3%, 45.2% 34.5%, 27.5% 76.7%, 0.1% 64.9%, 17.9% 100%, 27.6% 76.8%, 76.1% 97.7%, 74.1% 44.1%)"></div>
   </div>
   <div class="absolute -top-52 left-1/2 -z-10 -translate-x-1/2 transform-gpu blur-3xl sm:top-[-28rem] sm:ml-16 sm:translate-x-0 sm:transform-gpu" aria-hidden="true">
-    <div class="aspect-[1097/845] w-[68.5625rem] bg-gradient-to-tr from-[black] to-[black] opacity-20" style="clip-path: polygon(74.1% 44.1%, 100% 61.6%, 97.5% 26.9%, 85.5% 0.1%, 80.7% 2%, 72.5% 32.5%, 60.2% 62.4%, 52.4% 68.1%, 47.5% 58.3%, 45.2% 34.5%, 27.5% 76.7%, 0.1% 64.9%, 17.9% 100%, 27.6% 76.8%, 76.1% 97.7%, 74.1% 44.1%)"></div>
+    <div class="aspect-[1097/845] w-[68.5625rem] bg-gradient-to-tr from-[ #1B263B] to-[ #1B263B] opacity-20" style="clip-path: polygon(74.1% 44.1%, 100% 61.6%, 97.5% 26.9%, 85.5% 0.1%, 80.7% 2%, 72.5% 32.5%, 60.2% 62.4%, 52.4% 68.1%, 47.5% 58.3%, 45.2% 34.5%, 27.5% 76.7%, 0.1% 64.9%, 17.9% 100%, 27.6% 76.8%, 76.1% 97.7%, 74.1% 44.1%)"></div>
   </div>
-  <div class="mx-auto max-w-7xl px-6 lg:px-8" data-aos="zoom-in-right">
+  <div class="mx-auto max-w-7xl px-6 lg:px-8">
     <div class="mx-auto max-w-2xl lg:mx-0">
       <h2 class="text-3xl font-bold  text-white ">Provide a more reliable order-to-delivery contact with us </h2>
+
     </div>
     <div class="mx-auto mt-10 max-w-2xl lg:mx-0 lg:max-w-none">
       <div class="grid grid-cols-1 gap-x-8 gap-y-6 text-base font-semibold leading-7 text-white sm:grid-cols-2 md:flex lg:gap-x-10">
-        <a href="./contact.html"  class="inline-block py-3.5 px-10 mr-4 bg-white rounded-[4px] font-semibold text-[14px] text-gray-800 ">Contact Us <span aria-hidden="true">&rarr;</span></a>
+        <a href="./../style/contact.css"  class="inline-block py-3.5 px-10 mr-4 bg-white rounded-[4px] font-semibold text-[14px] text-gray-800">Contact Us <span aria-hidden="true">&rarr;</span></a>
         
       </div>
-      
+     
     </div>
   </div>
 </div>
 
-
+<br>
 
 <!--trusted by-->
 <div class="bg-white py-16 sm:py-24">
@@ -273,9 +195,10 @@
     </div>
   </div>
 </div>
-<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
 
 
+    
+      
 <!--footer-->
 <div>
   <footer>
